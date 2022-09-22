@@ -12,7 +12,7 @@ for (var i = 24; i < 75; i += 2) {
 // Use a for statement to log to the console a complete sentence stating the weather using the Array below:
 var weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 
-for (var i = 0; i , weather_options.length; i++) {
+for (var i = 0; i < weather_options.length; i++) {
   console.log(`The weather is ${weather_options[i]}`);
 }
 // Challenge 3
@@ -21,8 +21,9 @@ var words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
 
 for (var i = 0; i < words.length; i++) {
   if (words[i].length === 3) {
-      console.log(words[i]
+      console.log(words[i])
   }
+}
 
 // 📹 Record yourself live-coding and talking through any ONE of the challenges.
   // The recording doesn't have to be the first time you are solving the problem.
